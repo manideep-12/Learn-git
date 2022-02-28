@@ -52,17 +52,36 @@ gh issue status
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Git Commands
+
+## Branches
+
+### List all remote and local branches
+```
+git branch -a
+```
+### Checkout a branch
+```
+git checkout <branch_name>
+```
+### Create a branch
+```
+git branch <branch_name>
+```
+### Create and Checkout branch
+```
+git checkout -b <branch_name>
+```
+### Push a branch to remote
+```
+git push origin -u <branch_name>
+```
+### Delete local branch
+```
+git branch -d <branch_name>
+```
+### Delete remote branch
+```
+git push origin --delete <branch_name>
+```
+### 
