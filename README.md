@@ -1,4 +1,4 @@
-# Learn-git
+# GitHub CLI Commands
 ```
 gh auth login
 ```
@@ -22,3 +22,47 @@ gh repo fork
 gh repo fork username/repo_name
 ```
 - forks the repo directly into your account and asks if you need a clone locally
+
+```
+gh issue create
+```
+- Asks for Title, body and creates the issue 
+
+```
+gh issue create --title "name" --body "description" --lable ", seperated labels"
+```
+- Creating issues with more flags
+```
+gh issue list
+```
+```
+gh issue close <number>
+```
+```
+gh issue status
+```
+
+- More issue commands
+
+
+```
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Git Commands
