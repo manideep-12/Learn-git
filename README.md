@@ -97,5 +97,3 @@ gh pr create -B <Destination_branch_name>
 ```
 gh pr create -R <username>/<repo_name>
 ```
-
-
