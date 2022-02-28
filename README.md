@@ -84,4 +84,16 @@ git branch -d <branch_name>
 ```
 git push origin --delete <branch_name>
 ```
-### 
+## Pull Request
+- Chekout to the branch which needs to be merged and run
+```
+gh pr create
+```
+
+```
+gh pr create -B <Destination_branch_name>
+```
+### Send a Pull request to the repo we forked from
+```
+gh pr create -R <username>/<repo_name>
+```
